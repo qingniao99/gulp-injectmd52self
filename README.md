@@ -1,4 +1,4 @@
-# gulp-injectmd52self [![NPM version][npm-image]][npm-url]
+# gulp-injectmd52self
 > A gulp plugin that help you to inject file's md5 into itself.
 
 ## Usage
