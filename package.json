@@ -1,10 +1,10 @@
 {
   "name": "gulp-injectmd52self",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A gulp plugin that help you to inject file's md5 into itself",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,11 @@
     "gulpplugin",
     "selfmd5"
   ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/qingniao99/gulp-injectmd52self/issues"

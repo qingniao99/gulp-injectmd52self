@@ -3,7 +3,8 @@
 
 ## Usage
 
-install `gulp-injectmd52self` as a development dependency:
+install `gulp-injectmd52self` as a development dependency.
+warn: you should has a 'placeholder' that would be placed in your file.
 
 ```shell
 npm install --save-dev gulp-injectmd52self
@@ -12,11 +13,11 @@ npm install --save-dev gulp-injectmd52self
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var replace = require('gulp-injectmd52self');
+var injectmd52self = require('gulp-injectmd52self');
 
 gulp.task('templates', function(){
   gulp.src(['file.txt'])
-    .pipe(replace('your pattern')
+    .pipe(injectmd52self('your pattern')
     .pipe(gulp.dest('build/file.txt'));
 });
 ```
